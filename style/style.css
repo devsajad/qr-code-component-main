@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(214, 226, 240);
+}
+
+.container {
+  width: 32rem;
+  height: 49.9rem;
+  text-align: center;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+.barcode-image img {
+  width: 28.8rem;
+  margin-bottom: 2.4rem;
+  border-radius: 1rem;
+}
+
+.title {
+  color: hsl(218, 44%, 22%);
+  line-height: 1.2;
+  font-size: 2.2rem;
+  font-weight: 700;
+
+  margin-bottom: 1.6rem;
+}
+.text {
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+  font-size: 1.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
